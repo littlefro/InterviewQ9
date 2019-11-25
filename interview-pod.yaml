@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: interviewq
+spec:
+    containers:
+    -   name: interviewpod
+        image: docker.io/littlefro/python-interview:v1
